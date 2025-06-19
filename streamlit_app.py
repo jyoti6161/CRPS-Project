@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # API URL
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://crps-project.onrender.com/"
 
 # Feature list used in prediction
 features = [
