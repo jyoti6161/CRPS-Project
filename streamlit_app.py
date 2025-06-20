@@ -52,7 +52,7 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("download.png", width=500)
 
-st.markdown("<h1 style='text-align: center; color: #0a58ca;'>Customer Retention Proactive System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #0a58ca;'>Customer Churn Prediction and Proactive Retention System </h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center; color: gray;'>AI-powered insights with tailored retention strategies</h5>", unsafe_allow_html=True)
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
