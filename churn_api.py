@@ -76,7 +76,7 @@ def churn_message(pred):
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to the CPRS Churn Prediction API!"}
+    return {"message": "Welcome to the CRPS Churn Prediction API!"}
 
 @app.post("/predict")
 def predict_churn(input_data: ChurnInput):
