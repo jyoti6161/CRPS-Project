@@ -8,7 +8,7 @@ An end-to-end AI-powered solution to proactively identify customers at risk of c
 
 ## 🔍 Overview
 
-CPRS predicts customer churn **30–45 days in advance**, segments customers into **risk tiers**, explains why they might churn using **explainable AI**, and recommends **actionable retention strategies** in real time.
+CRPS predicts customer churn **30–45 days in advance**, segments customers into **risk tiers**, explains why they might churn using **explainable AI**, and recommends **actionable retention strategies** in real time.
 
 ---
 
@@ -53,7 +53,7 @@ CRPS_Final/
 ├── render.yaml                         # Cloud deployment config
 ├── README.md                           # Project overview
 ├── README_FINAL.pdf                    # Final formatted report
-└── CPRS_Presentation.pptx              # Client presentation
+
 ```
 
 ---
@@ -110,6 +110,5 @@ streamlit run streamlit_app.py
 * 🧾 Business-style churn reasoning
 * 🎯 Retention strategy generator
 * 📉 SHAP explainability used in model training
-* 📈 Dynamic charts (bar, radar)
 * 📂 Prediction session history + export
 
