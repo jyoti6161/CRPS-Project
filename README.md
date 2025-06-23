@@ -63,7 +63,7 @@ CRPS_Final/
 ### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/CRPS-Project.git
+git clone https://github.com/jyoti6161/CRPS-Project.git
 cd CRPS-Project
 ```
 
