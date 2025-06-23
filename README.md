@@ -97,9 +97,9 @@ streamlit run streamlit_app.py
 
 ## 📈 Live Demo
 
-🚀 [Churn Dashboard - Hosted on Render](https://crps-dashboard.onrender.com)
+🚀 [Churn Dashboard - Hosted on Render](https://crps-dashboard.onrender.com/)
 
-🧪 [API Endpoint - Hosted on Render](https://crps-api.onrender.com/predict)
+🧪 [API Endpoint - Hosted on Render](https://crps-project.onrender.com/)
 
 ---
 
