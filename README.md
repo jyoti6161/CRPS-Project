@@ -1,21 +1,117 @@
-# 🧠 Customer Retention Proactive System (CRPS)
 
-CPRS is an AI-powered solution that predicts the likelihood of customer churn and recommends proactive retention strategies. It uses advanced machine learning models (e.g., CatBoost), explainable AI (SHAP, LIME), and an interactive Streamlit dashboard for real-time decision support.
+
+# 🧠 Customer Churn Prediction and Retention System (CPRS)
+
+![Logo](assets/download.png)
+
+An end-to-end AI-powered solution to proactively identify customers at risk of churn and recommend tailored retention strategies. Built using **CatBoost**, **SHAP**, **FastAPI**, and **Streamlit**, and fully containerized for deployment.
 
 ---
 
-## 📦 Project Structure
-CPRS_Final/
+## 🔍 Overview
 
+CPRS predicts customer churn **30–45 days in advance**, segments customers into **risk tiers**, explains why they might churn using **explainable AI**, and recommends **actionable retention strategies** in real time.
+
+---
+
+## 🎯 Objectives
+
+1. Predict customer churn with high accuracy.
+2. Segment customers into **Low**, **Medium**, and **High Risk** tiers.
+3. Generate **explainable business reasons** behind churn.
+4. Suggest **rule-based + ML-informed** retention actions.
+5. Enable real-time prediction through a user-friendly dashboard.
+6. Integrate API-first design for CRM or Campaign tools.
+7. Allow continuous learning through session feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer           | Tools & Libraries                                     |
+| --------------- | ----------------------------------------------------- |
+| 🧠 Model        | CatBoost, SHAP, LIME, Scikit-learn                    |
+| 🧪 Backend API  | FastAPI, Uvicorn                                      |
+| 🖥️ Frontend UI | Streamlit                     |
+| 📦 Deployment   | Docker, Render (Free Cloud Hosting), requirements.txt |
+| 📂 DevOps       | GitHub, Dockerfile, render.yaml                       |
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+CRPS_Final/
 ├── model/
-│ ├── catboost_model.pkl # Trained CatBoost model
-│ └── selected_features.pkl # SHAP-selected features
-
+│   ├── catboost_model.pkl              # Trained model
+│   └── selected_features.pkl           # SHAP-selected features
 ├── assets/
-│ ├── 1.png # Dashboard header visual
-│ └── download.png # Company logo
+│   ├── 1.png                           # Dashboard visual
+│   └── download.png                    # Company logo
+├── churn_api.py                        # FastAPI backend
+├── streamlit_app.py                    # Interactive frontend
+├── requirements.txt                    # Python dependencies
+├── Dockerfile                          # Container config
+├── render.yaml                         # Cloud deployment config
+├── README.md                           # Project overview
+├── README_FINAL.pdf                    # Final formatted report
+└── CPRS_Presentation.pptx              # Client presentation
+```
 
-├── churn_api.py # FastAPI backend for predictions
-├── streamlit_app.py # Streamlit UI dashboard
-├── requirements.txt # All Python dependencies
-├── README.md # This file
+---
+
+## 🚀 Setup Instructions
+
+### 🔧 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/CRPS-Project.git
+cd CRPS-Project
+```
+
+### ⚙️ 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate  # On Windows
+source venv/bin/activate  # On Linux/Mac
+```
+
+### 📦 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ 4. Run FastAPI Backend
+
+```bash
+uvicorn churn_api:app --reload
+```
+
+### 🌐 5. Launch Streamlit Dashboard
+
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+## 📈 Live Demo
+
+🚀 [Churn Dashboard - Hosted on Render](https://crps-dashboard.onrender.com)
+
+🧪 [API Endpoint - Hosted on Render](https://crps-api.onrender.com/predict)
+
+---
+
+## 📊 Features
+
+* 🔮 Real-time churn prediction and confidence score
+* 📊 Risk segmentation with color-coded tiers
+* 🧾 Business-style churn reasoning
+* 🎯 Retention strategy generator
+* 📉 SHAP explainability used in model training
+* 📈 Dynamic charts (bar, radar)
+* 📂 Prediction session history + export
+
