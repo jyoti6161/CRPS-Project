@@ -6,12 +6,15 @@ CPRS is an AI-powered solution that predicts the likelihood of customer churn an
 
 ## 📦 Project Structure
 CPRS_Final/
+
 ├── model/
 │ ├── catboost_model.pkl # Trained CatBoost model
 │ └── selected_features.pkl # SHAP-selected features
+
 ├── assets/
 │ ├── 1.png # Dashboard header visual
 │ └── download.png # Company logo
+
 ├── churn_api.py # FastAPI backend for predictions
 ├── streamlit_app.py # Streamlit UI dashboard
 ├── requirements.txt # All Python dependencies
