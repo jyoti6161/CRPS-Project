@@ -28,7 +28,7 @@ CRPS predicts customer churn **30–45 days in advance**, segments customers int
 
 | Layer           | Tools & Libraries                                     |
 | --------------- | ----------------------------------------------------- |
-| 🧠 Model        | CatBoost, SHAP, LIME, Scikit-learn                    |
+| 🧠 Model        | CatBoost, SHAP, Scikit-learn                    |
 | 🧪 Backend API  | FastAPI, Uvicorn                                      |
 | 🖥️ Frontend UI | Streamlit                     |
 | 📦 Deployment   | Docker, Render (Free Cloud Hosting), requirements.txt |
