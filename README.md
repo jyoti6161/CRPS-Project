@@ -2,8 +2,6 @@
 
 # 🧠 Customer Churn Prediction and Retention System (CPRS)
 
-![Logo](assets/download.png)
-
 An end-to-end AI-powered solution to proactively identify customers at risk of churn and recommend tailored retention strategies. Built using **CatBoost**, **SHAP**, **FastAPI**, and **Streamlit**, and fully containerized for deployment.
 
 ---
